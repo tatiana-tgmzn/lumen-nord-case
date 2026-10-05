@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LUMEN NORD — сайт эко-отеля</title>
+<meta name="description" content="Кейс: дизайн сайта эко-отеля из стеклянных куполов на Кольском полуострове. Знак, десктопная и мобильная версии.">
+<meta property="og:title" content="LUMEN NORD — сайт эко-отеля">
+<meta property="og:description" content="Дизайн сайта, знак, мобильная версия и фотосессия. Татьяна Тагмазян.">
+<meta property="og:image" content="og.jpg">
+<style>
+/* layout: narrow dark reader, canvases stacked like on Behance, fixed index at the left on wide screens */
+:root{--bg:#02050b;--panel:#07101a;--ink:#f1eee6;--mut:#7d8c99;--line:rgba(255,255,255,.12);--acc:#4fe3ff;color-scheme:dark}
+*{box-sizing:border-box}
+html{background:#02050b}body{background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;font-weight:300;margin:0;padding-inline:16px}
+.wrap{max-width:1180px;margin-inline:auto;padding-block:28px 80px}
+header{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;padding-bottom:24px;border-bottom:1px solid var(--line);margin-bottom:28px}
+h1{font-size:clamp(28px,5vw,44px);font-weight:600;letter-spacing:-.03em;margin:0}
+h1 span{font-family:Prata,serif;font-weight:400;letter-spacing:.14em;color:var(--mut);margin-left:.15em}
+.meta{font-size:14px;color:var(--mut);display:flex;gap:18px;flex-wrap:wrap}
+.meta b{font-weight:500;color:var(--ink)}
+.intro{max-width:62ch;font-size:16px;line-height:1.55;color:#b9c4cd;margin:0 0 34px}
+.cv{margin:0 0 14px;position:relative;border-radius:14px;overflow:hidden;background:var(--panel);border:1px solid var(--line)}
+.cv img,.cv video{display:block;width:100%;height:auto}
+.cv .tag{position:absolute;left:14px;top:12px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#cfd8df;background:rgba(2,5,11,.62);padding:5px 10px;border-radius:999px;border:1px solid var(--line)}
+.play{position:absolute;right:14px;top:12px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--acc);background:rgba(2,5,11,.62);padding:5px 10px;border-radius:999px;border:1px solid var(--line)}
+footer{margin-top:34px;padding-top:20px;border-top:1px solid var(--line);font-size:13px;color:var(--mut);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&family=Prata&display=swap">
+<div class="wrap">
+  <header>
+    <h1>LUMEN<span>NORD</span></h1>
+    <div class="meta"><span><b>Сайт</b> для эко-отеля</span><span><b>Дизайн</b> Татьяна Тагмазян</span><span><b>13</b> полотен</span></div>
+  </header>
+  <p class="intro">Сайт эко-отеля из 24 стеклянных куполов на Кольском полуострове. Каждый вопрос гостя вынесен в отдельный блок: тепло, интерьер, территория, дорога и частые вопросы. В кейсе знак, десктопная версия, мобильная версия, фотосессия и карта маршрута.</p>
+
+  <div class="cv"><video src="c/v01.mp4" autoplay muted loop playsinline poster="c/01.jpg"></video><span class="tag">01 Обложка</span><span class="play">видео</span></div>
+  <div class="cv"><img src="c/02.jpg" alt="Задача" loading="lazy"><span class="tag">02 Задача</span></div>
+  <div class="cv"><video src="c/v03.mp4" autoplay muted loop playsinline poster="c/03.jpg"></video><span class="tag">03 Знак</span><span class="play">видео</span></div>
+  <div class="cv"><img src="c/04.jpg" alt="Смыслы" loading="lazy"><span class="tag">04 Смыслы</span></div>
+  <div class="cv"><img src="c/05.jpg" alt="Первый экран" loading="lazy"><span class="tag">05 Первый экран</span></div>
+  <div class="cv"><img src="c/06.jpg" alt="Объёмный осмотр" loading="lazy"><span class="tag">06 Объёмный осмотр</span></div>
+  <div class="cv"><img src="c/07.jpg" alt="Территория и гости" loading="lazy"><span class="tag">07 Территория и гости</span></div>
+  <div class="cv"><img src="c/08.jpg" alt="Сайт целиком" loading="lazy"><span class="tag">08 Сайт целиком</span></div>
+  <div class="cv"><img src="c/09.jpg" alt="Мобильная версия" loading="lazy"><span class="tag">09 Мобильная версия</span></div>
+  <div class="cv"><video src="c/v10.mp4" autoplay muted loop playsinline poster="c/10.jpg"></video><span class="tag">10 Фотосессия</span><span class="play">видео</span></div>
+  <div class="cv"><img src="c/11.jpg" alt="Детали" loading="lazy"><span class="tag">11 Детали</span></div>
+  <div class="cv"><img src="c/12.jpg" alt="Итог" loading="lazy"><span class="tag">12 Итог</span></div>
+  <div class="cv"><img src="c/13.jpg" alt="Контакты" loading="lazy"><span class="tag">13 Контакты</span></div>
+
+  <footer><span>Татьяна Тагмазян</span><a href="https://t.me/tatiana_tgmzn" style="color:inherit">Telegram</a></footer>
+</div>
+
+</html>
