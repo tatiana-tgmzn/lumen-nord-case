@@ -1,14 +1,37 @@
 <!doctype html>
 <html lang="ru"><head><meta charset="utf-8">
-<meta name="viewport" content="width=1400">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>LUMEN NORD — кейс</title>
 <meta name="description" content="Кейс: сайт для северного глэмпинга из стеклянных куполов. Дизайн: Татьяна Тагмазян.">
 <meta property="og:title" content="LUMEN NORD"><meta property="og:image" content="og.jpg">
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
-html,body{background:#02050b}
-img{display:block;width:100%;max-width:1920px;height:auto;margin:0 auto}
-</style></head><body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap">
+<style>*{margin:0;padding:0;box-sizing:border-box}html,body{background:#02050b}
+body{color:#f1eee6;font:300 16px/1.55 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+.desk img{display:block;width:100%;max-width:1920px;height:auto;margin:0 auto}.mob{display:none}
+@media(max-width:899px){.desk{display:none}.mob{display:block}}
+.s{padding:56px 20px;position:relative}.s+.s{border-top:1px solid rgba(255,255,255,.06)}
+.eb{font-size:11px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#4fe3ff;margin-bottom:18px}
+h1,h2{font-weight:600;letter-spacing:-.025em;line-height:1.1;color:#fff}h1{font-size:38px}h2{font-size:30px}h2 i{font-style:normal;color:#8c97a3}
+.t{font-size:17px;line-height:1.55;color:#c8d0d8;margin-top:16px}
+.full{display:block;width:calc(100% + 40px);margin:-56px -20px 28px;max-width:none;height:auto}
+.s:first-child{padding-top:0}.meta{margin-top:28px;display:grid;grid-template-columns:1fr 1fr;gap:18px 16px}.meta dt{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#7d8c99}.meta dd{font-size:15px;color:#fff;margin-top:2px}
+.chat{margin-top:28px;padding:16px;border-radius:20px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);display:flex;flex-direction:column;gap:8px}
+.chat small{font-size:9px;letter-spacing:.14em;color:#7d8c99;margin-bottom:4px}.b{max-width:86%;padding:10px 14px;border-radius:18px;font-size:15px;line-height:1.35}
+.b.o{align-self:flex-end;background:linear-gradient(90deg,#1a7392,#299fb8);color:#fff}.b.i{background:#212a33}
+.list{list-style:none;margin-top:28px}.list li{display:flex;gap:16px;padding:16px 0;border-top:1px solid rgba(255,255,255,.12);font-size:17px}.list b{font-weight:400;color:#4fe3ff;font-size:14px;padding-top:3px}
+.bgs{min-height:560px;display:flex;align-items:flex-end;background:linear-gradient(180deg,rgba(2,5,11,.15),rgba(2,5,11,.88)),var(--bg) center/cover}.bgs .in{width:100%}
+.trio,.cards{display:grid;gap:12px;margin-top:28px}.trio figure,.cards figure{position:relative;border-radius:16px;overflow:hidden}.trio img,.cards img{display:block;width:100%;height:260px;object-fit:cover}
+.trio figcaption{padding:10px 2px 0}.trio b{display:block;font-weight:600;font-size:18px}.trio span{font-size:13px;color:#7d8c99}
+.cards figcaption{position:absolute;left:0;right:0;bottom:0;padding:40px 16px 14px;font-weight:500;font-size:18px;background:linear-gradient(transparent,rgba(2,5,11,.85))}
+.concept{min-height:720px;align-items:flex-start;padding-top:56px}.ring{width:230px;height:230px;border-radius:50%;overflow:hidden;margin:6px 0 40px auto;border:2px solid #ffb85a;box-shadow:0 0 70px rgba(255,184,90,.4)}.ring img{width:100%;height:100%;object-fit:cover}
+.big{font-size:46px;font-weight:600;letter-spacing:-.03em;line-height:1.05;margin-bottom:22px}.big .c{font-style:normal;color:#4fe3ff}.big .a{font-style:normal;color:#ffb85a}
+.logo{display:block;width:200px;height:200px;margin:8px auto 36px}.sw{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:28px;font-size:12px;color:#c8d0d8}.sw i{display:block;height:64px;border-radius:12px;margin-bottom:8px}.mut{margin-top:22px;font-size:11px;letter-spacing:.14em;color:#7d8c99}
+.hs{display:flex;gap:12px;overflow-x:auto;margin:28px -20px 0;padding:0 20px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}.hs img{flex:none;scroll-snap-align:start;border-radius:14px}
+.phones img{height:520px;width:auto}.gal img{height:300px;width:auto}.mapw img{height:auto;width:760px}
+.dome{display:block;width:100%;margin:20px 0 4px}.chips{display:flex;flex-wrap:wrap;gap:8px}.chips span{padding:10px 16px;border-radius:999px;font-size:14px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.2);backdrop-filter:blur(10px)}
+.who{margin-top:22px;font-size:15px;color:#c8d0d8}.who b{color:#fff;font-weight:500}.who a{color:#fff;text-decoration:none}
+.btn{display:inline-block;margin-top:26px;padding:14px 22px;border-radius:999px;border:1px solid rgba(255,255,255,.35);color:#fff;text-decoration:none;font-size:13px;letter-spacing:.1em;text-transform:uppercase;background:rgba(255,255,255,.08)}</style></head><body>
+<div class="desk">
 <img src="c/01.jpg" alt="LUMEN NORD — экран 01" width="1920" loading="eager">
 <img src="c/02.jpg" alt="LUMEN NORD — экран 02" width="1920" loading="eager">
 <img src="c/03.jpg" alt="LUMEN NORD — экран 03" width="1920" loading="lazy">
@@ -22,4 +45,22 @@ img{display:block;width:100%;max-width:1920px;height:auto;margin:0 auto}
 <img src="c/11.jpg" alt="LUMEN NORD — экран 11" width="1920" loading="lazy">
 <img src="c/12.jpg" alt="LUMEN NORD — экран 12" width="1920" loading="lazy">
 <img src="c/13.jpg" alt="LUMEN NORD — экран 13" width="1920" loading="lazy">
+</div>
+<main class="mob">
+<section class="s"><img class="full" src="m/laptop.jpg" alt=""><p class="eb">01 / Cover</p><h1>Локация, ради которой едут на Север.</h1>
+<dl class="meta"><div><dt>Project</dt><dd>LUMEN NORD</dd></div><div><dt>Role</dt><dd>Brand &amp; Digital Designer</dd></div><div><dt>Scope</dt><dd>Concept / UX/UI / Art direction</dd></div><div><dt>Type / Year</dt><dd>Website design / 2026</dd></div></dl></section>
+<section class="s"><p class="eb">02 / Task</p><h2><i>Задача.</i> Заинтересовать и закрыть все возражения</h2><p class="t">Потенциальные посетители часто сомневаются по поводу теплоты домиков и комфорта проживания.</p>
+<div class="chat"><small>ТАК ВЫГЛЯДЕЛА ПЕРЕПИСКА ДО САЙТА</small><div class="b o">Добрый вечер! Зимой в куполе правда тепло?</div><div class="b i">Да, в каждом отопление и тёплый пол.</div><div class="b o">А как добраться от аэропорта?</div><div class="b i">Встретим на трансфере, дорога около часа.</div><div class="b o">Можно приехать с собакой?</div></div><ul class="list"><li><b>01</b>Передать атмосферу с первого экрана</li><li><b>02</b>Ответить на вопросы гостя</li><li><b>03</b>Бронь за пару касаний</li><li><b>04</b>Знак, который запоминается</li></ul></section>
+<section class="s bgs" style="--bg:url(m/bed.jpg)"><div class="in"><p class="eb">03 / Solution</p><h2><i>Решение.</i> Уют, который чувствуется с экрана сайта</h2><p class="t">Мной создана серия кадров в одном тёплом свете: камин, плед, сияние за стеклом.</p><p class="t">Гость чувствует уют ещё до бронирования.</p></div></section>
+<section class="s"><p class="eb">04 / Activities</p><h2><i>Решение.</i> Показать, чем заняться на территории</h2><p class="t">Сначала интерес, затем ясность: вечер у камина, ночь под сиянием, утро на озере.</p><div class="trio"><figure><img src="m/fire.jpg" alt=""><figcaption><b>Вечером</b><span>тёплый свет внутри</span></figcaption></figure><figure><img src="m/g03.jpg" alt=""><figcaption><b>Ночью</b><span>северное небо за стеклом</span></figcaption></figure><figure><img src="m/diver.jpg" alt=""><figcaption><b>Утром</b><span>пейзаж у порога</span></figcaption></figure></div></section>
+<section class="s bgs concept" style="--bg:url(m/night.jpg)"><div class="in"><p class="eb">05 / Concept</p><div class="ring"><img src="m/fire.jpg" alt=""></div><p class="big">Снаружи —<br><em class="c">Север.</em></p><p class="big">Внутри —<br><em class="a">тепло.</em></p></div></section>
+<section class="s"><p class="eb">06 / Brand &amp; visual language</p><img class="logo" src="m/logo.svg" alt="Знак LUMEN NORD"><h2>Один знак — одна короткая формула</h2><p class="t">Купол и свет в одном знаке — и во всём интерфейсе.</p><div class="sw"><div><i style="background:#30c6e8"></i>Холодный свет</div><div><i style="background:#ffb865"></i>Тёплый свет</div><div><i style="background:#060d17;border:1px solid #1d2a38"></i>Ночь</div></div><p class="mut">INTER + PRATA</p></section>
+<section class="s"><p class="eb">07 / Full site</p><h2><i>Сайт целиком.</i> Один блок — один шаг</h2><div class="hs phones"><img src="m/site1.jpg" alt="Мобильная версия сайта, экран 1"><img src="m/site2.jpg" alt="Мобильная версия сайта, экран 2"><img src="m/site3.jpg" alt="Мобильная версия сайта, экран 3"><img src="m/site4.jpg" alt="Мобильная версия сайта, экран 4"><img src="m/site5.jpg" alt="Мобильная версия сайта, экран 5"></div></section>
+<section class="s"><p class="eb">08 / Inside the dome</p><h2><i>Внутри купола.</i> Всё для северной ночи</h2><img class="dome" src="m/dome.png" alt="3D-купол"><div class="chips"><span>Панорамное остекление</span><span>Тёплый пол и печь</span><span>Терраса с купелью</span><span>Баня и сауна</span></div></section>
+<section class="s"><p class="eb">09 / Stay experience</p><h2><i>Пребывание.</i> Дни на Севере</h2><div class="cards"><figure><img src="m/diver.jpg" alt=""><figcaption>Дайвинг</figcaption></figure><figure><img src="m/deer.jpg" alt=""><figcaption>Олени</figcaption></figure><figure><img src="m/sled.jpg" alt=""><figcaption>Северное сияние</figcaption></figure><figure><img src="m/spa.jpg" alt=""><figcaption>СПА-процедуры</figcaption></figure><figure><img src="m/fire.jpg" alt=""><figcaption>Ресторан</figcaption></figure></div></section>
+<section class="s"><p class="eb">10 / Photoshoot</p><h2><i>Фотосессия.</i> Единый свет</h2><p class="t">Каждый кадр отобран и доработан вручную.</p><div class="hs gal"><img src="m/g01.jpg" alt=""><img src="m/g02.jpg" alt=""><img src="m/g03.jpg" alt=""><img src="m/g04.jpg" alt=""><img src="m/g05.jpg" alt=""><img src="m/g06.jpg" alt=""><img src="m/g07.jpg" alt=""><img src="m/g08.jpg" alt=""><img src="m/g09.jpg" alt=""><img src="m/g10.jpg" alt=""><img src="m/g11.jpg" alt=""><img src="m/g12.jpg" alt=""><img src="m/g13.jpg" alt=""><img src="m/g14.jpg" alt=""><img src="m/g15.jpg" alt=""><img src="m/g16.jpg" alt=""><img src="m/g17.jpg" alt=""><img src="m/g18.jpg" alt=""><img src="m/g19.jpg" alt=""><img src="m/g20.jpg" alt=""></div></section>
+<section class="s"><p class="eb">11 / Route &amp; logistics</p><h2><i>Маршрут.</i> Удалённость — часть магии</h2><p class="t">Дорога видна заранее: удалённость не пугает, а притягивает.</p><div class="hs mapw"><img src="m/map.jpg" alt="Маршрут от аэропорта"></div></section>
+<section class="s"><p class="eb">12 / Mobile experience</p><h2>Лёгкое бронирование — под рукой</h2><img class="full" src="m/hand.jpg" alt="" style="margin-top:20px"></section>
+<section class="s bgs" style="--bg:url(m/night.jpg)"><div class="in"><p class="eb">13 / Contact</p><h2>Есть место, которое сложно передать экраном? Давайте найдём для него digital-форму.</h2><p class="who"><b>Татьяна Тагмазян</b><br>Brand &amp; Digital Designer</p><p class="who"><a href="https://t.me/tatiana_tgmzn">@tatiana_tgmzn</a><br><a href="mailto:Tanya51rus@gmail.com">Tanya51rus@gmail.com</a></p><a class="btn" href="https://t.me/tatiana_tgmzn">Написать в Telegram</a></div></section>
+</main>
 </body></html>
